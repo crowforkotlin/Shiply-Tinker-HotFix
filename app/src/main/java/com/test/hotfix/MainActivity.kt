@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        binding.tv.text = "HOT FIX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   "
+        binding.tv.text = "HOT FIX COMPLETE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  "
 
         binding.bt.setOnClickListener {
              RFix.getInstance().requestConfig()
